@@ -1,4 +1,12 @@
+/*
 
+ Benjamin Moss Custom code template
+ Service binary - payload encryption with AES
+ 
+ Author: Benjamin Moss Kipsoi 
+ Email: mossbenjamin254@gmail.com
+
+*/
 #include <Windows.h>
 #include <combaseapi.h>
 
@@ -60,3 +68,4 @@ HRESULT STDAPI DllGetClassObject(REFCLSID rclsid,
 	
 	return hRes;
 } 
+
