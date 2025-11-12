@@ -68,8 +68,15 @@ This process of loading is diffrent in a way that Local SCM will call the Remote
       ◇ HKEY_CLASSES_ROOT  
       ◇ HKEY_CURRENT_USER  
       ◇ HKEY_LOCAL_MACHINE  
+
 For example in the HKEY_CLASSES_ROOT hive under the CLSID directory each Class ID (which is unique to itself) hold information about a path to a binary, so when queried by an application it'll provide that path to the application   
 
+<img src="https://imgur.com/1MC3tZQ.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
+
+ In HKEY_CURRENT_USER hive under the Classes directory from the software directory, we'll find a CLSID directory with a short list of GUIDs 
+<img src="https://imgur.com/07ActOE.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
+
+<img src="https://imgur.com/Y5NOwza.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
 
 
 
