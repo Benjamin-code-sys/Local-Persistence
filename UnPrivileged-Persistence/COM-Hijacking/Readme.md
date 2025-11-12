@@ -73,7 +73,8 @@ For example in the HKEY_CLASSES_ROOT hive under the CLSID directory each Class I
 
 <img src="https://imgur.com/1MC3tZQ.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
 
- In HKEY_CURRENT_USER hive under the Classes directory from the software directory, we'll find a CLSID directory with a short list of GUIDs 
+ In HKEY_CURRENT_USER hive under the Classes directory from the software directory, we'll find a CLSID directory with a short list of GUIDs   
+
 <img src="https://imgur.com/07ActOE.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
 
 <img src="https://imgur.com/Y5NOwza.png" height="70%" width="70%" alt="COM Hijacking Steps"/>
