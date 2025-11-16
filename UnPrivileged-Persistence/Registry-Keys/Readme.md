@@ -14,12 +14,16 @@ This persistence technnique also can be perfomed by any user
 
 ▪ To set this persistence we simply need to add a registry instruction as shown below:  
 
-<mark>reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v MSUpdate /t REG_SZ /d C:\Path\To\Malware.exe /f </mark> 
+```cmd
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v MSUpdate /t REG_SZ /d "C:\Path\To\Application.exe" /f
+```
 
 <img src="https://imgur.com/smowLsW.png" height="80%" width="80%" alt="Reg Screenshot"/>
 
  ▪ To remove the registry instruction:   
 
- <mark>reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v MSUpdate /f </mark>
+ ```cmd
+ reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v MSUpdate /f
+ ```
 
  <img src="https://imgur.com/zeBDrLo.png" height="80%" width="80%" alt="Reg Screenshot"/>
