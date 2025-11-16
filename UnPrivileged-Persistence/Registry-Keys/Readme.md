@@ -7,7 +7,7 @@ It's effective because it survives reboots, requires little operator effort, and
 
 Defenders should monitor and alert on new/changed startup registry entries, verify associated binaries/owners, and block or remediate unauthorized entries.
 
-In this type of persistence the attacker simply updates the registy hive by adding an entry in this location of the hive <mark> "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"</mark> that informs the system when ever it boots up to run the binary that has been specified
+In this type of persistence the attacker simply updates the registy hive by adding an entry in this location of the hive ``"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"`` that informs the system when ever it boots up to run the binary that has been specified
 This persistence technnique also can be perfomed by any user
 
 <h2>Abuse</h2>
